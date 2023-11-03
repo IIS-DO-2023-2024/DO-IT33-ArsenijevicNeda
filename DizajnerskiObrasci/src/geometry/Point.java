@@ -53,6 +53,7 @@ public class Point extends Shape {
 	public boolean contains(Point clickPoint) {
 		return this.distance(clickPoint.x, clickPoint.getY()) <= 2;
 	}
+	
 
 	 
 	/*public boolean contains(int x, int y) {
